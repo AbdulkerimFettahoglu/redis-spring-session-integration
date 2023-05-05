@@ -16,3 +16,5 @@ Bu gibi durumlarda kullanıcı deneyiminin etkilenmemesi adına "JSESSIONID" bil
 3 - "spring-boot-docker-compose" bağımlılığını ekliyoruz.
 
 4 - "docker-compose.yml" dosyamızı oluşturuyoruz.
+
+5 - Artık "jakarta.servlet.http.HttpSession" objeleri üzerinden oturum bazlı veri saklayabiliriz.
