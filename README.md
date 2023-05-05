@@ -10,3 +10,9 @@ Bu gibi durumlarda kullanıcı deneyiminin etkilenmemesi adına "JSESSIONID" bil
 "spring session redis" entegrasyonu ile bunu sağlayabiliriz.
 
 1 - "spring-boot-starter-data-redis" ve "spring-session-data-redis" bağımlılıkları eklenir.
+
+2 - Bilgisayarda redis kurulu olmadığı için docker kullancağız. Spring' in 3.1 ile sağladığı kolaylık sayesinde uygulamayı ayağa kaldırırken aynı zamanda konteynerlar da çalıştırabilir ve log mesajlarından takip edebilirsin.
+
+3 - "spring-boot-docker-compose" bağımlılığını ekliyoruz.
+
+4 - "docker-compose.yml" dosyamızı oluşturuyoruz.
