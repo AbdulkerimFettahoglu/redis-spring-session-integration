@@ -8,3 +8,5 @@ Bu cookie, Spring Security kullanan uygulamanın kendisi tarafından oluşturulu
 Bu gibi durumlarda kullanıcı deneyiminin etkilenmemesi adına "JSESSIONID" bilgilerinin ortak bir alanda, tüm uygulamalar tarafından erişilebilir şekilde saklanması gerekiyor.
 
 "spring session redis" entegrasyonu ile bunu sağlayabiliriz.
+
+1 - "spring-boot-starter-data-redis" ve "spring-session-data-redis" bağımlılıkları eklenir.
