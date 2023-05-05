@@ -18,3 +18,9 @@ Bu gibi durumlarda kullanıcı deneyiminin etkilenmemesi adına "JSESSIONID" bil
 4 - "docker-compose.yml" dosyamızı oluşturuyoruz.
 
 5 - Artık "jakarta.servlet.http.HttpSession" objeleri üzerinden oturum bazlı veri saklayabiliriz.
+
+6 - Şu komutlar ile redis içeriğini kontrol edebilirsin.
+docker exec -it redis-spring-session-integration-redis-1 redis-cli
+127.0.0.1:6379> keys *
+(empty array)
+127.0.0.1:6379> exit
